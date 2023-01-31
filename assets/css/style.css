@@ -254,6 +254,36 @@
         	color: var(--main-color);
         }
 
+        #bda-hospitality-yellow {
+        	visibility: hidden;
+        	z-index: 0;
+        }
+
+        #bda-rentals-yellow {
+        	visibility: hidden;
+        	z-index: 0;
+        }
+
+        #bda-real-estate-yellow {
+        	visibility: hidden;
+        	z-index: 0;
+        }
+
+        #bda-project-yellow {
+        	visibility: hidden;
+        	z-index: 0;
+        }
+
+        #bda-eventfunction-yellow {
+        	visibility: hidden;
+        	z-index: 0;
+        }
+
+        #bda-digital-yellow {
+        	visibility: hidden;
+        	z-index: 0;
+        }
+
         /* Modal */
         .modal-title {
         	font-weight: 500;
@@ -285,7 +315,7 @@
 		@media only screen and (max-width: 500px) {
 			.bda-container {
 				display: table !important;
-				margin-left: calc(50% - 240px) !important;
+				margin-left: calc(50% - 241px) !important;
 				transform: scale(0.4);
 				-webkit-transform: scale(0.4);
 				-moz-transform: scale(0.4);
@@ -398,6 +428,18 @@
 			.bda-logo {
 				width: 250px;
 				height: auto;
+			}
+
+			.modal-body {
+				font-size: 12px !important;
+			}
+
+			.btn-close-modal {
+				font-size: 14px;
+			}
+
+			.btn-web-modal {
+				font-size: 14px;
 			}
 		}
 
